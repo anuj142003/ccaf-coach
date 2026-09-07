@@ -8,8 +8,8 @@ exam blueprint, grades your reasoning rather than your letter, tracks per-object
 coverage across sessions, and tells you when the readiness gates are met — and
 when they are not.
 
-There is **no question bank**. That is deliberate; see [Why no question
-bank](#why-no-question-bank).
+There is **no question bank** — every item is written for you, against the rules in
+[Why questions are generated live](#why-questions-are-generated-live).
 
 ## Install
 
@@ -70,19 +70,26 @@ Claude will not call you ready until all five hold:
 Gates are reported at every close and are never waived for being close. They
 inform your decision; they don't own it.
 
-## Why no question bank
+## Why questions are generated live
 
-The skill has failed twice, and both remedies are load-bearing rules now:
+Self-authored practice items fail in two ways that a score is powerless to reveal,
+and the rules in `SKILL.md` §7 exist to guard against both:
 
-- **The answer leaked through form.** In a static bank, the correct option was the
-  longest 92% of the time (208 chars vs 106). A candidate scored 92% without
-  reading the questions. Hence the length-parity and letter-rotation checks in §7.
-- **The answer was never on the page.** Across ~115 self-authored items on
-  multi-step enforcement, the coach never once offered `PreToolUse` or settings
-  permissions as an option. The candidate scored 9/9, was told the cluster was
-  closed, and scored **0% on the four exam objectives covering that ground.**
-  Hence `references/mechanism-inventory.md`, which must be read before authoring
-  any enforcement or configuration item.
+- **The answer leaks through form.** Where the correct option is consistently the
+  longest or most hedged, a candidate can score highly without reading the stem —
+  in one measured set the correct option averaged 208 characters against the
+  distractors' 106, and was longest 92% of the time. Hence the length-parity,
+  vocabulary and letter-rotation checks run before any item is presented.
+- **The real answer is never on the page.** A mechanism that never appears as an
+  option cannot be tested, however many nearby items you answer. A cluster drilled
+  to 9/9 this way — with `PreToolUse` and settings permissions absent from every
+  option list — came back at 0% on the four exam objectives covering it. Hence
+  `references/mechanism-inventory.md`, which must be read before authoring any
+  enforcement or configuration item, with every option drawn from it under the
+  documentation's own name.
+
+Both are the reason the program reserves the word *cleared* for ground confirmed by
+an external scorer, and reports anything else as *held under my items*.
 
 ## Repository layout
 
