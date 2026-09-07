@@ -84,9 +84,6 @@ The skill has failed twice, and both remedies are load-bearing rules now:
   Hence `references/mechanism-inventory.md`, which must be read before authoring
   any enforcement or configuration item.
 
-The full evidence, including the score report that exposed the second failure, is
-in [CHANGELOG.md](CHANGELOG.md).
-
 ## Repository layout
 
 | File | Purpose |
@@ -95,7 +92,6 @@ in [CHANGELOG.md](CHANGELOG.md).
 | `references/objectives.md` | 29 objective titles transcribed verbatim from a real score report; the coverage-tracking list |
 | `references/mechanism-inventory.md` | Doc-verified mechanism names. Read before authoring enforcement or configuration items |
 | `references/content-reference.md` | Domain facts, in/out-of-scope lists — fallback content |
-| `CHANGELOG.md` | v2 changes and the calibration case behind them |
 
 ## Sources of truth, in order
 

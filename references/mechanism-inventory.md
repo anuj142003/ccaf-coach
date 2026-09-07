@@ -3,8 +3,8 @@
 **Why this file exists.** A coach authoring their own items can only test whether the
 candidate agrees with the coach. If a real mechanism is missing from the coach's
 option lists, no number of items will ever detect the candidate not knowing it —
-and the coach will confidently report the cluster as mastered. This happened. See
-`../CHANGELOG.md` for the calibration evidence.
+and the coach will confidently report the cluster as mastered. This happened, and
+was caught only when a real score report contradicted the coach.
 
 **The rule: every option in an enforcement or configuration item must name a
 mechanism from the lists below, using the name the documentation uses.** Never

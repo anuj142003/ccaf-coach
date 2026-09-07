@@ -48,7 +48,7 @@ authored ~115 items on multi-step enforcement and never once named `PreToolUse` 
 settings permissions as an option, offering instead `tool_choice`, `PostToolUse`,
 or a coach-invented phrase, "a prerequisite gate in code". The candidate scored
 9/9 on the coach's items, was told the cluster was closed, and scored **0% on the
-four exam objectives covering that ground.** See `CHANGELOG.md` for the full case.
+four exam objectives covering that ground.**
 
 The remedy, and it is mandatory: **before authoring any item on enforcement or
 configuration, read `references/mechanism-inventory.md`, and draw every option
