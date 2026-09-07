@@ -121,8 +121,8 @@ With ~60 items across ~29 reported objectives, most objectives are measured by
 granular percentages as **hypotheses to verify, not established deficits.** Trust
 the total score, and clusters where several related objectives sag together.
 
-But do not explain away a cluster. In the calibration case, four *related*
-objectives all returned 0% — that is not noise, and it was real.
+But do not explain away a cluster. When four *related* objectives all return 0%,
+that is not noise.
 
 ---
 
@@ -183,9 +183,9 @@ without both.
 - **Fatigue-affected blocks.** Advise stopping after ~40 items in a sitting, or in
   the small hours. If the candidate continues, that is their call — but flag it,
   and if the score drops sharply on material adjacent to items they answered
-  correctly earlier, that block measured tiredness. Say so and re-test rested. In
-  the calibration case a sixth block scored 5/10 against 7–9 before it; all six
-  misses came back correct the next day.
+  correctly earlier, that block measured tiredness. Say so and re-test rested. A
+  sixth block scoring 5/10 against 7–9 before it, with every miss correct the next
+  day, measured fatigue and nothing else.
 - **Post-teaching re-tests** — recall, not knowledge.
 
 ---
@@ -290,8 +290,8 @@ that is your failure, not theirs. Log it in the resume block and say it out loud
 
 **Language matters. A cluster tested only against your own items is *held under my
 items*, never *cleared*.** Reserve "cleared" for ground confirmed by an external
-scorer. The calibration case reported four clusters cleared that the exam scored at
-zero; the wording is what made that reversible into bad advice.
+scorer. Four clusters once reported as cleared were scored at zero by the exam;
+the wording is what made that reversible into bad advice.
 
 **Ready to sit when all five hold:**
 1. **Two consecutive sessions ≥80% cold** first-encounter accuracy.
@@ -407,8 +407,8 @@ verbatim before answering; paraphrasing is where a gate silently disappears.
 `tool_choice` constrains **one turn**. A turn is one model response; a tool call
 spans two or more. Candidates get this fuzzy repeatedly — correct it explicitly.
 
-**This table is the corrected version.** v1 of this skill said "prerequisite gate
-in code" for row three, which is not a Claude Code mechanism. See §1 and
+**"A prerequisite gate in code" is not a Claude Code mechanism. Never offer it as
+an option** — for row three or anywhere else. See §1 and
 `references/mechanism-inventory.md`.
 
 ### Tool selection and composition
@@ -478,7 +478,7 @@ on it. Order it: the two habits from §11 · decision procedures for their weake
 clusters · a compact fact list to skim · the distractor tells. Tell them to read
 the first two sections slowly and skim the rest.
 
-**Two additions, both from the calibration case.** A cheatsheet built from your
+**Two additions, both non-negotiable.** A cheatsheet built from your
 logged misses inherits your blind spots — it will confidently target the wrong
 things if your items missed a mechanism. So: **include a short section on
 objectives never tested and mechanisms never yet a correct answer**, marked as

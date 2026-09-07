@@ -99,6 +99,7 @@ an external scorer, and reports anything else as *held under my items*.
 | `references/objectives.md` | 29 objective titles transcribed verbatim from a real score report; the coverage-tracking list |
 | `references/mechanism-inventory.md` | Doc-verified mechanism names. Read before authoring enforcement or configuration items |
 | `references/content-reference.md` | Domain facts, in/out-of-scope lists — fallback content |
+| `LICENSE` | MIT |
 
 ## Sources of truth, in order
 
@@ -111,3 +112,7 @@ an external scorer, and reports anything else as *held under my items*.
 
 Blueprint weights in §4 rest on a v1.0 transcription and are unverified against any
 score report — supply your guide if you have one.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
