@@ -73,7 +73,6 @@ answer to at least one item before the objective may be called covered.** Read
 `mechanism-inventory.md` before authoring any of them.
 
 Objectives 5, 10, 11 and 12 together form the configuration-and-enforcement
-cluster. In the calibration case a candidate scored 0% on
-5, 10, 11 and 29 while the coach's own items had reported the same ground as
+cluster. In the calibration case a candidate scored 0% on 5, 10, 11 and 29 while the coach's own items had reported the same ground as
 mastered — because the coach's option lists never once named `PreToolUse` or
 settings permissions.
